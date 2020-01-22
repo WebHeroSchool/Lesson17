@@ -1,12 +1,12 @@
-body{
+body {
 font: 14px PT Serif;
 }
 
-.menu{
+.menu {
 	text-align: left;
 }
 
-.menu__links_item{
+.menu__links_item {
 	display: inline-block;
 	color: #333333;
 	font: 22px bold;
@@ -16,29 +16,29 @@ font: 14px PT Serif;
 	text-decoration: none;
 }
 
-.menu__links_item:hover{
+.menu__links_item:hover {
 	text-decoration: underline;
 }
 
-@media (min-width: 320px){
+@media (min-width: 320px) {
 	.content{
 		font-size: 14px;
 	}
 }
 
-@media (min-width: 481px){
+@media (min-width: 481px) {
 	.content{
 		font-size: 16px;
 	}
 }
 
-@media (min-width: 641px){
+@media (min-width: 641px) {
 	.content{
 		font-size: 18px;
 	}
 }
 
-@media (min-width: 961px){
+@media (min-width: 961px) {
 	.content{
 		font-size: 20px;
 	}
