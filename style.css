@@ -1,0 +1,47 @@
+body{
+font: 14px PT Serif;
+}
+
+.menu{
+	text-align: left;
+}
+
+.menu__links_item{
+	display: inline-block;
+	color: #333333;
+	font: 22px bold;
+	line-height: 30px;
+	padding: 0 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.menu__links_item:hover{
+	text-decoration: underline;
+}
+
+@media (min-width: 320px){
+	.content{
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 481px){
+	.content{
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 641px){
+	.content{
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 961px){
+	.content{
+		font-size: 20px;
+	}
+	}
+}
+
